@@ -1,0 +1,90 @@
+#intro1 {
+background-image: url(../images/intro.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 50vh;
+}
+#intro2 {
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    }
+    #intro3 {
+        background-image: url(../images/services.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+        }
+#intro4 {
+            background-image: url(../images/departments.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 50vh;
+     }
+
+ #intro5 {
+        background-image: url(../images/pay-bills.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+ } 
+ 
+ #intro6 {
+    background-image: url(../images/water-rates.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.card{
+    width: 23.5rem;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+
+}
+
+.input-field{
+   
+    width:600px;
+    max-width:80%;
+    height: 40px;
+   
+}
+.services img{
+    width:350px;
+    height:260px;
+}
+
+
+
+@media only screen and (min-width:500px) {
+  
+    .card{
+        width: 21.5rem;
+      
+    
+    }
+    #intro1, #intro2, #intro3, #intro4, #intro5, #intro6{
+        height: 60vh;
+    }
+    
+}
+    
+
+@media only screen and (min-width:850px) {
+ 
+    .card{
+        width: 22.7rem;
+    }
+    #intro1, #intro2, #intro3, #intro4, #intro5, #intro6{
+        height: 100vh;
+    }
+    
+}
